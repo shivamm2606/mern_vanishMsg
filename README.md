@@ -27,7 +27,7 @@ ZeroTrace is a MERN stack application designed to share one-time viewable secret
 1. **Clone the repository**
    ```bash
    git clone <repository_url>
-   cd vanishPass
+   cd ZeroTrace
    ```
 
 2. **Backend Setup**
