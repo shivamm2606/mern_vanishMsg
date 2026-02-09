@@ -1,14 +1,15 @@
-# VanishPass
+# ZeroTrace
 
-VanishPass is a secure, self-destructing snippet sharing application built with the MERN stack. It encrypts secrets using AES-256-GCM and ensures they are permanent deleted after a single view or expiration time.
+> **Share sensitive information securely that vanishes after being read.**
+
+ZeroTrace is a MERN stack application designed to share one-time viewable secrets. Once a secret is viewed, it is permanently deleted from the database.
 
 ## Features
 
-- **End-to-End Security**: Secrets are encrypted before storage using AES-256-GCM.
-- **Self-Destruction**: Secrets are deleted from the database immediately after being viewed.
-- **Auto-Expiration**: Unviewed secrets expire automatically via MongoDB TTL.
-- **Admin Dashboard**: View active secret counts (JWT Protected).
-- **Responsive UI**: Sleek dark mode design using Tailwind CSS.
+- **Create a Secret:** Generate a secure link for your sensitive text.
+- **One-Time View:** The secret is deleted immediately after it is accessed.
+- **Secure:** secrets are stored encrypted (AES) in the database.
+- **Mobile Friendly:** Responsive design for all devices.
 
 ## Tech Stack
 
