@@ -16,8 +16,8 @@ export const createSecret = async (req, res, next) => {
 
         // Encrypt the text
         // We use our helper function to get the encrypted string and the unique IV (Initialization Vector)
+        
         const { encryptedData, iv } = encrypt(text);
-
         // Calculate when this secret should expire
         // Default is 1 day (1440 minutes) if the user didn't choose one
         let expiresDate = new Date();
